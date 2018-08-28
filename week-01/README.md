@@ -1,7 +1,7 @@
 # Homework
 All homework is due midnight before the next class
 
-[Submit here](https://classroom.github.com/a/iKCPZNH6)
+[Submit Here](https://classroom.github.com/a/iKCPZNH6)
 
 ### Pseudocode
 - Choose a simple activity such as a chore or daily task that you want to pseudocode (ex. making coffee, brushing teeth, reading a book)
