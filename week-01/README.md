@@ -1,4 +1,4 @@
-# Assignments
+# Homework
 All homework is due midnight before the next class
 
 [Submit here](https://classroom.github.com/a/iKCPZNH6)
