@@ -14,4 +14,4 @@ Go to https://processing.org/reference/ and find a drawing function to experimen
 When you get errors in your code, document them - write down what they say and try to guess what the error means. When it doesn't give you an error, but it doesn't give you what you think will happen, write that down as well. Keep this documentation as comments in your code.
 
 ### Reading
-Read FORM+CODE Ch.1 and submit 100+ word response
+Read FORM+CODE Ch.1 and submit a 100+ word response on Canvas
