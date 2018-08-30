@@ -1,7 +1,7 @@
 # Homework
 All homework is due midnight before the next class
 
-[Submit Here](https://classroom.github.com/a/iKCPZNH6)
+In the future, we will submit assignments via GitHub, but for this week you can include the pseudocode (as comments) and the drawing primitives assignment in the same processing (.pde) file and email it to me.
 
 ### Pseudocode
 - Choose a simple activity such as a chore or daily task that you want to pseudocode (ex. making coffee, brushing teeth, reading a book)
