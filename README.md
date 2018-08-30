@@ -10,4 +10,4 @@
 
 This course is an introduction to programming, the historical and cultural context of software in art and design, and the applications of “creative code” in a studio environment. Students will learn the fundamentals of all software development using the open source framework Processing, writing programs that generate visuals, handle data, and facilitate interactive experiences.
 
-### [Syllabus](https://docs.google.com/document/d/1GPnqOyDDF4dWNjSR4JWjAZCt_K3mOsajUni8PaM-yrk/edit?usp=sharing)
+### [Syllabus](https://docs.google.com/document/d/16xqlMlv6-RhQF-GpVT8p2QBKLxpzbYPSfaUgh1r9ItM/edit?usp=sharing)
