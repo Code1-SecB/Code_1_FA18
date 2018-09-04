@@ -1,6 +1,3 @@
-# Classwork
-[Slideshow](https://docs.google.com/presentation/d/15wNAgG6cQA4LuzP5VjzzoyfL62fw5A4-Ub1wAZnZq_4/edit?usp=sharing)
-
 # Homework
 All homework is due midnight before the next class
 
@@ -19,3 +16,6 @@ When you get errors in your code, document them - write down what they say and t
 
 ### Reading
 Read FORM+CODE Ch.1 and submit a 100+ word response on Canvas
+
+# Classwork
+[Slideshow](https://docs.google.com/presentation/d/15wNAgG6cQA4LuzP5VjzzoyfL62fw5A4-Ub1wAZnZq_4/edit?usp=sharing)
