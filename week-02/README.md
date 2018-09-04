@@ -61,10 +61,10 @@ void draw(){
 ```java
 //the values that go into the parenthese are called "parameters"
 
-//calls the size function, which sets the canvas size to the two number you pass it
+//calls the size function, which sets the canvas size to the width and height parameters
 size(600,600);
 
-//calls the rect function, which draws a rectangle for you based on the values you pass it
+//calls the rect function, which draws a rectangle for you based on the x, y, width, and height parameters
 rect(0,0,100,100);
 
 //these functions are built into processing - they are defined somewhere "behind the scenes"
