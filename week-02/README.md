@@ -41,7 +41,8 @@ void draw(){
 - fill() - changes the color of the shape you are drawing
 - stroke() - changes the color of the outline
 ```java
-//color parameters can be written as G (grayscale), GA (grayscale and alpha), RGB (red, green, and blue), and RGBA (red, green, blue, and alpha)
+//color parameters can be written as G (grayscale), GA (grayscale and alpha)
+//RGB (red, green, and blue), and RGBA (red, green, blue, and alpha)
 //makes the background gray with medium opacity
 background(100, 100);
 //makes the shape color red with low opacity
@@ -64,7 +65,8 @@ void draw(){
 //calls the size function, which sets the canvas size to the width and height parameters
 size(600,600);
 
-//calls the rect function, which draws a rectangle for you based on the x, y, width, and height parameters
+//calls the rect function, which draws a rectangle for you
+//based on the x, y, width, and height parameters
 rect(0,0,100,100);
 
 //these functions are built into processing - they are defined somewhere "behind the scenes"
