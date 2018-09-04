@@ -52,15 +52,17 @@ fill(255,0,0,30);
 - defining a function - writing a set of instructions for your code to do something
 ```java
 void setup(){
+  //processing automatically calls this function once, at the beginning of the program
   //tells the setup function what to do when it is called
 }
 void draw(){
+  //processing automatically calls this function continuously as the code runs
   //tells the draw function what to do each time it is called
 }
 ```
 - calling a function - commanding the program to run through that set of instructions
 ```java
-//the values that go into the parenthese are called "parameters"
+//the values that go into the parentheses are called "parameters"
 
 //calls the size function, which sets the canvas size to the width and height parameters
 size(600,600);
@@ -71,4 +73,10 @@ rect(0,0,100,100);
 
 //these functions are built into processing - they are defined somewhere "behind the scenes"
 ```
-
+### Math
+```java
+x++; //add 1 to x
+x += 3; //add 3 to x (shorthand)
+x = x + 3; //add 3 to x (longer form)
+//can be used with -, *, / operators (subtract,multiply,divide)
+```
