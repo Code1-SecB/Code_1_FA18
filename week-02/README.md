@@ -12,9 +12,10 @@ ellipse(width/2,height/2,width/4,height/4);
 - float - decimal number
 - String - "A line of text that must be in quotation marks"
 ```java
+//when you set up a new variable you must declare its dataType
 int myNumber = 5;
 float myFloat = 5.5;
-String myString = "Hello how are you?"
+String myString = "Hello how are you?";
 ```
 
 ### Mouse
@@ -60,8 +61,10 @@ void draw(){
 ```java
 //calls the size function, which sets the canvas size to the two number you pass it
 size(600,600);
-//this function is built into processing - it is defined somewhere behind the scenes
 
 //calls the rect function, which draws a rectangle for you based on the values you pass it
 rect(0,0,100,100);
+
+//these functions are built into processing - they are defined somewhere "behind the scenes"
 ```
+
