@@ -1,3 +1,23 @@
+# Homework
+All homework is due midnight before the next class!
+
+### Dynamic composition
+Create a dynamic composition using what we have learned in class. Check out this [example](https://processing.org/examples/mouse2d.html) for inspiration! Your composition should include the following:
+- two different shapes
+- width and height keywords
+- mouseX and mouseY keywords (you can also use [pmouseX](https://processing.org/reference/pmouseX.html) and [pmouseY](https://processing.org/reference/pmouseY.html) if you want to get adventurous)
+- background(), fill(), stroke()
+- draw and setup functions
+- code should be thoroughly commented!
+
+### Extra credit
+Can you make the colors in your composition change in interesting ways by making the canvas width and height a multiple of 255?
+- ex. size(255,255) or size(510,510)
+- please provide a comment to let me know if you're attempting the extra credit
+
+### Reading
+Read FORM+CODE Ch.2 and submit a 100+ word response on Canvas
+
 # Classwork
 Code from class with notes can be found in the [classwork folder for this week](https://github.com/Code1-SecB/Code_1_FA18/tree/master/week-02/classwork). Additional notes below:
 
