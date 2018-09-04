@@ -1,4 +1,5 @@
 # Classwork
+Code from class with notes can be found in the [classwork folder for this week](https://github.com/Code1-SecB/Code_1_FA18/tree/master/week-02/classwork). Additional notes below:
 
 ### Canvas
 - width - keyword to access the canvas width
