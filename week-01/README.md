@@ -1,3 +1,6 @@
+# Classwork
+[Slideshow](https://docs.google.com/presentation/d/15wNAgG6cQA4LuzP5VjzzoyfL62fw5A4-Ub1wAZnZq_4/edit?usp=sharing)
+
 # Homework
 All homework is due midnight before the next class
 
