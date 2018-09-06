@@ -11,7 +11,7 @@ Create a dynamic composition using what we have learned in class. Check out this
 - code should be thoroughly commented!
 
 ### Extra credit
-Can you make the colors in your composition change in interesting ways by making the canvas width and height a multiple of 255?
+Can you make the colors in your composition change in interesting ways by making the canvas width and height a multiple of 255? If width and height are proportional to the 255 RGB scale, how might the colors change in relation to coordinates in the canvas?
 - ex. size(255,255) or size(510,510)
 - please provide a comment to let me know if you're attempting the extra credit
 
