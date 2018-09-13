@@ -15,7 +15,7 @@ Look over the following and answer the discussion questions on canvas.
 ### Custom function, translation, rotation
 Create a composition that uses a custom function (one that you have defined) to quickly and easily generate multiple copies of the same drawing. Refer to our flower example for inspiration. Your composition should include the following:
 - custom function DEFINITION
-- at least 3 function CALLS with different parameters passed in
+- at least 3 CALLS of you custom function with different parameters passed in
 - a least 2 [rotations](https://processing.org/reference/rotate_.html)
 - at least 2 [translations](https://processing.org/reference/translate_.html)
 - [pushMatrix()](https://processing.org/reference/pushMatrix_.html) and    [popMatrix()](https://processing.org/reference/popMatrix_.html)
