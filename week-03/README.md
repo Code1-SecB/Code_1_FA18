@@ -48,32 +48,48 @@ rotate(radians(45));
 // rotates the grid clockwise by a half circle (180 degrees or PI radians)
 rotate(PI);
 ```
-
-
-### Functions
-- defining a function - writing a set of instructions for your code to do something
+### Push and Pop Matrix
+- by default, transformations (translate, rotate, scale, etc.) will build on each other as they are called in the draw function
+– if you want to isolate transformations, put pushMatrix() and popMatrix() around your code
 ```java
-void setup(){
-  //processing automatically calls this function once, at the beginning of the program
-  //tells the setup function what to do when it is called
+void draw() {
+
+  // try commenting the push and pop out to see the difference
+  pushMatrix();
+  translate(100,100);
+  ellipse(0,0,200,200);
+  popMatrix();
+
+  rotate(radians(45));
+  rect(0,0,100,100);
+
 }
-void draw(){
-  //processing automatically calls this function continuously as the code runs
-  //tells the draw function what to do each time it is called
+```
+
+### Custom Functions
+- defining a function - writing a set of instructions for your code to do something
+- when you define a function, you can create your own parameters -> you must declare their datatype
+```java
+// a function that takes in a name parameter and prints it to the console
+void sayHello(String name){
+  println(name);
 }
 ```
 - calling a function - commanding the program to run through that set of instructions
+– when you call the function, you can fill in unique values for the parameters
 ```java
-//the values that go into the parentheses are called "parameters"
+// declaring name variables
+String myFirstName = "Remina";
+String myLastName = "Greenfield";
 
-//calls the size function, which sets the canvas size to the width and height parameters
-size(600,600);
+// call the sayHello function we defined above and pass it unique names
+sayHello(myFirstName);
+sayHello(myLastName);
 
-//calls the rect function, which draws a rectangle for you
-//based on the x, y, width, and height parameters
-rect(0,0,100,100);
-
-//these functions are built into processing - they are defined somewhere "behind the scenes"
+// you don't have to pass a String variable, you can also pass a String directly 
+sayHello("Alan");
+sayHello("Turing");
+sayHello("Ada Lovelace");
 ```
 ### Random
 - generates a random value within a given range
