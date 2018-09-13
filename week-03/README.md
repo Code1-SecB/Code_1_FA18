@@ -52,8 +52,11 @@ rotate(PI);
 - by default, transformations (translate, rotate, scale, etc.) will build on each other as they are called in the draw function
 – if you want to isolate transformations, put pushMatrix() and popMatrix() around your code
 ```java
-void draw() {
+void setup() {
+  size(500,500);
+}
 
+void draw() {
   // try commenting the push and pop out to see the difference
   pushMatrix();
   translate(100,100);
@@ -62,7 +65,6 @@ void draw() {
 
   rotate(radians(45));
   rect(0,0,100,100);
-
 }
 ```
 
@@ -82,14 +84,16 @@ void sayHello(String name){
 String myFirstName = "Remina";
 String myLastName = "Greenfield";
 
-// call the sayHello function we defined above and pass it unique names
-sayHello(myFirstName);
-sayHello(myLastName);
+void draw(){
+  // call the sayHello function we defined above and pass it unique names
+  sayHello(myFirstName);
+  sayHello(myLastName);
 
-// you don't have to pass a String variable, you can also pass a String directly 
-sayHello("Alan");
-sayHello("Turing");
-sayHello("Ada Lovelace");
+  // you don't have to pass a String variable, you can also pass a String directly 
+  sayHello("Alan");
+  sayHello("Turing");
+  sayHello("Ada Lovelace");
+}
 ```
 ### Random
 - generates a random value within a given range
