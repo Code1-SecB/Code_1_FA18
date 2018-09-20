@@ -6,7 +6,7 @@ Create a dynamic composition using what we have learned in class. Check out this
 - two different shapes
 - width and height keywords
 - mouseX and mouseY keywords (you can also use [pmouseX](https://processing.org/reference/pmouseX.html) and [pmouseY](https://processing.org/reference/pmouseY.html) if you want to get adventurous)
-- background(), fill(), stroke()
+- background(), fill(), and stroke()
 - draw and setup functions
 - code should be thoroughly commented!
 
