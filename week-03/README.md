@@ -6,7 +6,7 @@ Look over the following and answer the discussion questions on canvas.
 - [Functions Video](https://www.youtube.com/watch?v=_gpiW5KwjUI)
 - [Functions Example](https://processing.org/examples/functions.html)
 - [Color Tutorial](https://processing.org/tutorials/color/)
-- [2D Transformations Tutorial](https://processing.org/tutorials/transform2d/)
+- [2D Transformations Tutorial](https://processing.org/tutorials/transform2d/) (sections listed below)
   - Translation: Moving the Grid
   - What’s the Advantage?
   - Rotation
@@ -14,8 +14,8 @@ Look over the following and answer the discussion questions on canvas.
 
 ### Custom function, translation, rotation
 Create a composition that uses a custom function (one that you have defined) to quickly and easily generate multiple copies of the same drawing. Refer to our flower example for inspiration. Your composition should include the following:
-- custom function DEFINITION
-- at least 3 function CALLS with different parameters passed in
+- custom function DEFINITION that takes in at least 2 parameters
+- at least 3 CALLS of your custom function with different parameters passed in
 - a least 2 [rotations](https://processing.org/reference/rotate_.html)
 - at least 2 [translations](https://processing.org/reference/translate_.html)
 - [pushMatrix()](https://processing.org/reference/pushMatrix_.html) and    [popMatrix()](https://processing.org/reference/popMatrix_.html)
@@ -24,90 +24,84 @@ Create a composition that uses a custom function (one that you have defined) to 
 - code should be thoroughly commented!
 
 ### Extra credit
-Can you make the colors in your composition change in interesting ways by making the canvas width and height a multiple of 255? If width and height are proportional to the 255 RGB scale, how might the colors change in relation to coordinates in the canvas?
-- ex. size(255,255) or size(510,510)
+Use transformations with and without pushMatrix and popMatrix and explain the difference in your comments.
+- try using the [scale](https://processing.org/reference/scale_.html) function
 - please provide a comment to let me know if you're attempting the extra credit
 
 # Classwork
-Code from class with notes can be found in the [classwork folder for this week](https://github.com/Code1-SecB/Code_1_FA18/tree/master/week-02/classwork). Additional notes below:
+Code from class with notes can be found in the [classwork folder for this week](https://github.com/Code1-SecB/Code_1_FA18/tree/master/week-03/classwork). Additional notes below:
 
-### Canvas
-- width - keyword to access the canvas width
-- height - keyword to access the canvas height
+### Translation
+- function call that takes in x and y coordinates as parameters
+- moves the origin (0,0) of the processing grid to the specified coordinate
 ```java
-//draws an ellipse in the middle of the canvas that is 1/4 of the width and height
-ellipse(width/2,height/2,width/4,height/4);
+// moves the origin (0,0) point of the grid over 100 and down 200
+translate(100,200);
 ```
-### Datatypes
-- int - integer number
-- float - decimal number
-- String - "A line of text that must be in quotation marks"
+### Rotation
+- function call that takes in  an angle as parameters
+- angle should be in radians, but the radian() function call can be used to convert degrees to radians
 ```java
-//when you set up a new variable you must declare its dataType
-int myNumber = 5;
-float myFloat = 5.5;
-String myString = "Hello how are you?";
-```
+// rotates the grid clockwise by 45 degrees
+rotate(radians(45));
 
-### Mouse
-- mouseX - grabs the X coordinate of mouse position as you hover over the canvas
-- mouseY - grabs the Y coordinate of mouse position as you hover over the canvas
+// rotates the grid clockwise by a half circle (180 degrees or PI radians)
+rotate(PI);
+```
+### Push and Pop Matrix
+- by default, transformations (translate, rotate, scale, etc.) will build on each other as they are called in the draw function
+– if you want to isolate transformations, put pushMatrix() and popMatrix() around your code
 ```java
-//continously grab the mouse x and y coordinates and draw a circle at that point
-void draw(){
-  ellipse(mouseX, mouseY, 100, 100);
+void setup() {
+  size(500,500);
+}
+
+void draw() {
+  // try commenting the push and pop out to see the difference
+  pushMatrix();
+  translate(100,100);
+  ellipse(0,0,200,200);
+  popMatrix();
+
+  rotate(radians(45));
+  rect(0,0,100,100);
 }
 ```
-- pmouseX - grabs the previous X coordinate of mouse position
-- pmouseY - grabs the previous X coordinate of mouse position
-```java
-//we didn't go over this in class but you can try it in your homework
-void draw(){
-  line(pmouseX, pmouseY, mouseX, mouseY);
-}
-```
 
-### Color
-- background() - changes the color of the background
-- fill() - changes the color of the shape you are drawing
-- stroke() - changes the color of the outline
-```java
-//color parameters can be written as G (grayscale), GA (grayscale and alpha)
-//RGB (red, green, and blue), and RGBA (red, green, blue, and alpha)
-//makes the background gray with medium opacity
-background(100, 100);
-//makes the shape color red with low opacity
-fill(255,0,0,30);
-```
-### Functions
+### Custom Functions
 - defining a function - writing a set of instructions for your code to do something
+- when you define a function, you can create your own parameters -> you must declare their datatype
 ```java
-void setup(){
-  //processing automatically calls this function once, at the beginning of the program
-  //tells the setup function what to do when it is called
-}
-void draw(){
-  //processing automatically calls this function continuously as the code runs
-  //tells the draw function what to do each time it is called
+// a function that takes in a name parameter and prints it to the console
+void sayHello(String name){
+  println(name);
 }
 ```
 - calling a function - commanding the program to run through that set of instructions
+– when you call the function, you can fill in unique values for the parameters
 ```java
-//the values that go into the parentheses are called "parameters"
+// declaring name variables
+String myFirstName = "Remina";
+String myLastName = "Greenfield";
 
-//calls the size function, which sets the canvas size to the width and height parameters
-size(600,600);
+void draw(){
+  // call the sayHello function we defined above and pass it unique names
+  sayHello(myFirstName);
+  sayHello(myLastName);
 
-//calls the rect function, which draws a rectangle for you
-//based on the x, y, width, and height parameters
-rect(0,0,100,100);
-
-//these functions are built into processing - they are defined somewhere "behind the scenes"
+  // you don't have to pass a String variable, you can also pass a String directly 
+  sayHello("Alan");
+  sayHello("Turing");
+  sayHello("Ada Lovelace");
+}
 ```
-### Math
+### Random
+- generates a random value within a given range
+- if a lower bound is not specified, it is assumed to be zero
 ```java
-x++; //add 1 to x
-x += 3; //add 3 to x (shorthand)
-x = x + 3; //add 3 to x (longer form)
-//can be used with -, *, / operators (subtract,multiply,divide)
+// generates a random value between 0 and 255
+random(255);
+
+// generates a random value between 100 and 255
+random(100,255);
 ```
