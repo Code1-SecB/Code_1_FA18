@@ -26,7 +26,7 @@ Use the mousePressed and keyPressed booleans in your code
 
 ### Extra EXTRA credit
 Expand **TWO** of the challenges from class and submit **TWO** assignments.
-Usually, extra credit is 1 point. If you work on 2 challenges and submit 2 assignments, I will give you an extra 5 points for the 2nd assignment.
+Usually, extra credit is 1 point. If you work on 2 challenges and submit 2 assignments, I will give you an extra **5 points** for the 2nd assignment.
 
 ### Reading
 Read FORM+CODE Ch.5 and submit a 100+ word response on Canvas
