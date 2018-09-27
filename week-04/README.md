@@ -2,7 +2,7 @@
 All homework is due midnight before the next class!
 
 ### Pattern making
-Create a pattern or a grid by using what we learned in class about 'for' loops and 'if' statements. Refer examples from class inspiration or the listed videos for inspiration. Your composition should include the following:
+Create a pattern or a grid by using [what we learned in class](https://github.com/Code1-SecB/Code_1_FA18/tree/master/week-04/classwork) about 'for' loops and 'if' statements. Refer examples from class inspiration or the listed videos for inspiration. Your composition should include the following:
 - one [boolean](https://processing.org/reference/boolean.html) value
 - 2 [for loops](https://processing.org/reference/for.html) (they may be nested)
 - 2 conditionals - [if](https://processing.org/reference/if.html)/[else](https://processing.org/reference/else.html) statements

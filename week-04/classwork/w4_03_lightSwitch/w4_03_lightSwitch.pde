@@ -14,7 +14,8 @@ void draw(){
      mouseY < height/2 + 100) {
        
     // if the mouse is hovering, turn the background yellow
-    background(255,255,0);   
+    background(255,255,0);  
+    
   } else {
     
     // otherwise, keep it black
