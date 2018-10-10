@@ -8,7 +8,7 @@ For this week, review our mouse trail example from class [here](https://github.c
 - Add to the code so that mouseY values are saved in a separate array
 - Use these saved mouseY values to make the composition more interesting
   - Ex. change the position of the ellipses or draw a completely new shape
-- Right now the smaller circles are generated closer to the mouse.
+- Right now the smaller circles are generated closer to the mouse
   - Can you reverse this?
   - Make an attempt and comment your thought process
 - Experiment with "i" to change the size of the ellipses
