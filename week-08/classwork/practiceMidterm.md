@@ -69,7 +69,7 @@ void mousePressed() {
 
 **random1**
 
-currently the sketch draws random white points all over the canvas. change the values being given to x and y so that the white points are only drawn inside the black rectangle.
+currently the sketch draws random white points all over the canvas. change the range used in the two instances of the random function so that the white points are only drawn inside the black rectangle.
 
 ![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/random1.gif "")
 
@@ -87,5 +87,23 @@ void draw() {
   float y = random(0, height);
   stroke(255);
   point(x, y);
+}
+```
+
+**loops1**
+
+add a nested for loop so the program draws a 9x9 grid of ellipses, rather than the single row it currently draws.
+
+![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/loops2.png "")
+
+```
+void setup() {
+  size(600, 600);
+}
+
+void draw() {
+  for (int i = 1; i < 10; i++) {
+      ellipse(i * 60, 60, 50, 50);
+  }
 }
 ```
