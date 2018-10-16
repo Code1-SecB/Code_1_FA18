@@ -26,7 +26,7 @@ void draw() {
 
 this sketch has the rectangle change colors whenever the mouse button is pressed. change the sketch so that the rectangle only changes colors when the mouse is pressed inside the rectangle.
 
-![]()
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/cond2.gif" alt="drawing" width="500"/>
 
 ```
 void setup() {
@@ -50,7 +50,7 @@ void draw() {
 
 In this sketch the background changes to white when the mouse is pressed, but then is stuck there. Use a boolean to change the code so that each time you click the mouse, the background color switches between grey and white.
 
-![]()
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/bool1.gif" alt="drawing" width="500"/>
 
 ```
 void setup() {
