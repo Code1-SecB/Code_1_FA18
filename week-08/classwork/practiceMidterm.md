@@ -132,6 +132,8 @@ transform1
 
 currently, the small flower rotates around the larger flower. adjust the matrix  so that the small and the large flower rotate independently.
 
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/transform1.gif" alt="drawing" width="500"/>
+
 ```
 float angle = 0;
 
