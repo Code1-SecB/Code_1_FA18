@@ -56,6 +56,7 @@ this sketch uses only the setup function to draw points at every pixel to the sc
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/map2.1.png" alt="drawing" width="500"/>
 
+```
 void setup() {
   size(600, 600);
   for (int i = 0; i < width; i++) {
@@ -67,6 +68,7 @@ void setup() {
     }
   }
 }
+```
 
 **loops**
 
