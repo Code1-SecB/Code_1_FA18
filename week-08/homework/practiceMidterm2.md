@@ -90,12 +90,12 @@ void draw() {
 
 **arrays**
 
-this sketch uses a single array of floats to store values used in a drawing function. change the sketch so that it instantiates an array of 100 rectangles instead. you will need to change the way the values are given to the array. map the values in the array so that when drawn, the rectangles will be evenly spaced moving across the screen from the left to the right.
+this sketch instantiates an array of 10 floats and uses the index of this array to draw circles. unfortunately, the circles are being drawn over each other in the wrong order so only the last circle can be seen. change the loop so that 10 circles are drawn in a bull's eye pattern.
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/array2.1.png" alt="drawing" width="500"/>
 
 ```
-float[] pos = { 100, 200, 300, 400, 500 };
+float[] pos = new float[10];
 
 void setup() {
   size(600, 600);
@@ -104,7 +104,7 @@ void setup() {
 void draw() {
   background(240);
   for (int i = 0; i < pos.length; i++) {
-    rect(pos[i], height/2, 50, 50);
+    ellipse(width/2, height/2, i*60, i*60);
   }
 }
 ```
