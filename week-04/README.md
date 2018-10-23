@@ -18,4 +18,4 @@ Use additional logic in your conditional statements:
 - [not](https://processing.org/reference/logicalNOT.html)
 
 ### Reading
-Read FORM+CODE Ch.3 and submit a 100+ word response on Canvas
+Read FORM+CODE Ch.3 and submit a 100+ word response on Canvas.
