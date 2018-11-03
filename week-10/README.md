@@ -2,9 +2,21 @@
 Read over the processing [2D Arrays Tutorial](https://processing.org/tutorials/2darray/) and answer the questions posted in the discussion for the week on canvas.
 
 # Homework
+All homework is due midnight before the next class!
+
+Make an attempt at both of the challenges below and submit as 2 separate files
+- code should be thoroughly commented to show your understanding of each program (this can be a best guess)
+- add comments as notes as you work solve to explain your thinking and problem solving
+- any borrowed code MUST be properly cited!
+
 **Challenge 1**
 
-this program creates 2 arrays that are used to save x, and y coordinates for each point in a grid of 30 columns and 30 rows. the program then uses the column that the
+this program creates 2 arrays that are used to save x, and y coordinates for each point in a grid of 30 columns and 30 rows. the program then uses the column and row information to set the fill at each point and uses the 
+x and y coordinates to draw an ellipse at the appropriate spot.
+  - extend the program to make "b" value of the fill color relate to the position of the mouse. 
+  - try to give the ellipses slight random movement
+  
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/array2D.gif" alt="drawing" width="500"/>
 
 ```
 int COLS_NUM = 30;
