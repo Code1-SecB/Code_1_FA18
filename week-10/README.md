@@ -48,7 +48,8 @@ void draw() {
   for (int i = 0; i < posx.length; i++) {
     for (int j = 0; j < posx[0].length; j++) {
       float r = map(i,0,posx.length,0,255);
-      float g = map(i,0,posx.length,0,255);
+      float g = map(j,0,posx.length,0,255);
+      float b = 255;
       stroke(r,g,b);
       point(posx[i][j], posy[i][j]);
     }
