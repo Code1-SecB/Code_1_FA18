@@ -6,7 +6,7 @@ All homework is due midnight before the next class!
 
 Make an attempt at both of the challenges below and submit as 2 separate files
 - code should be thoroughly commented to show your understanding of each program (this can be a best guess)
-- add comments as notes as you work solve to explain your thinking and problem solving
+- add comments as notes as you work to explain your thinking and problem solving
 - any borrowed code MUST be properly cited!
 
 **Challenge 1**
