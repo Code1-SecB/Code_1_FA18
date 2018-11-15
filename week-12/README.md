@@ -10,7 +10,7 @@ All homework is due midnight before the next class!
 
 this sketch draws a grid to the canvas using two 2D arrays. modify the code to draw the window pattern shown below.
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/arrays2.gif "")
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/array2D.png" alt="drawing" width="500"/>
 
 ```
 int rows = 11;
@@ -46,7 +46,7 @@ void draw() {
 this sketch draws an ellipse that moves in a circle using cosine and sine. modify the sketch so that the ellipse begins to spiral in as it moves in a circle.
 - *hint: you only have to add one line of code*
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/arrays2.gif "")
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/spiral.gif" alt="drawing" width="500"/>
 
 ```
 float angle = 0.0;
@@ -76,7 +76,7 @@ void draw() {
 this sketch uses an array to draw ellipses to the canvas. their x coordinates are assigned by the of oscillating sin from -1 to 1 as the angle increases. change the code so that the x coords of the ellispe have a greater range of oscillation.  
 - *hint: you only have to change one line of code*
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/arrays2.gif "")
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/oscillate1.gif" alt="drawing" width="500"/>
 
 ```
 float x[] = new float[100];
