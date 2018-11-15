@@ -1,5 +1,5 @@
 # Reading
-Look over the processing [Trigonometry Primer](https://processing.org/tutorials/trig/) and answer the questions posted in the discussion for the week on canvas.
+Watch The Coding Train video on  [Trigonometry](https://www.youtube.com/watch?v=znOBmOrtz_M) and answer the questions posted in the discussion for the week on canvas.
 
 # Homework
 All homework is due midnight before the next class!
