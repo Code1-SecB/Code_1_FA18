@@ -14,7 +14,7 @@ Your composition must include:
   - **Any borrowed code MUST be properly cited!**
 
 Some helpful videos
-  - [3D terrain with Perlin Noise](https://www.youtube.com/watch?v=IKB1hWWedMk)
   - [Perlin Noise](https://www.youtube.com/watch?v=8ZEMLCnn8v0)
+  - [3D terrain with Perlin Noise](https://www.youtube.com/watch?v=IKB1hWWedMk)
   - [Mathematical Rose Patterns](https://www.youtube.com/watch?v=f5QBExMNB1I)
   - [Lissajous Curve Table](https://www.youtube.com/watch?v=--6eyLO78CY)
