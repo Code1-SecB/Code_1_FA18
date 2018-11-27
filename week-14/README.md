@@ -1,3 +1,19 @@
+# Midterm topics
+
+Major focus will be on topics covered in the later half of the semester.
+
+  - Conditionals
+  - Loops
+  - Scope
+  - Booleans
+  - Functions
+  - Arrays (1D and 2D)
+  - Objects and classes
+  - Trig (oscillation, sine, cosine)
+  - Vectors
+
+# Example Problems
+
 ## loops
 
 this sketch uses a while loop to draw 100 lines to the screen. replace the while loop with a for loop creating the same result.
