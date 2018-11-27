@@ -1,4 +1,4 @@
-# Midterm topics
+# Final topics
 
 Major focus will be on topics covered in the later half of the semester.
 
