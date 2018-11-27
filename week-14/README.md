@@ -2,12 +2,15 @@
 
 Major focus will be on topics covered in the later half of the semester.
 
+  - Basic programming math (%, +, -, *, /, etc.)
   - Conditionals
   - Loops
   - Scope
   - Booleans
-  - Functions
-  - Arrays (1D and 2D)
+  - Functions (parameters, return type)
+  - Transformations (rotate, translate)
+  - Processing functions: map(), dist(), random()
+  - Arrays (1D, 2D)
   - Objects and classes
   - Trig (oscillation, sine, cosine)
   - Vectors
