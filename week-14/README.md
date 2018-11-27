@@ -13,7 +13,7 @@ Major focus will be on topics covered in the later half of the semester.
   - Arrays (1D, 2D)
   - Objects and classes
   - Trig (oscillation, sine, cosine)
-  - Vectors
+  - Vectors (location, velocity)
 
 # Example Problems
 
