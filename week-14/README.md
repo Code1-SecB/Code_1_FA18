@@ -106,7 +106,8 @@ the code below draws a rose pattern to the canvas based on the variables defined
 
 refactor this program to create a Rose class that will draw roses of various designs and in different location.
 
-<img src="https://github.com/whoisbma/Code_1_FA18/blob/master/week-06/w06_03_2dArrays3/example.gif" alt="drawing" width="500"/>
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/rose.gif" alt="drawing" width="500"/>
+
 ```
 float n = 1;
 float d = 9;
