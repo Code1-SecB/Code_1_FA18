@@ -1,3 +1,7 @@
+// This sketch draws from Daniel Shiffman's Tutorial
+// Coding Challenge #11: 3D Terrain Generation with Perlin Noise in Processing
+// https://www.youtube.com/watch?v=IKB1hWWedMk&t=3s
+
 int cols, rows;
 int scl = 20;
 int w = 1600;

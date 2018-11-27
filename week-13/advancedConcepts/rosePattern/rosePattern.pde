@@ -1,3 +1,7 @@
+// This sketch draws from Daniel Shiffman's Tutorial
+// Coding Challenge #55: Mathematical Rose Patterns
+// https://www.youtube.com/watch?v=f5QBExMNB1I&t=1s
+
 float n = 1;
 float d = 9;
 float a = 0;
