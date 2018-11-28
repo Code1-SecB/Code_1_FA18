@@ -15,6 +15,11 @@ Major focus will be on topics covered in the later half of the semester.
   - Trig (oscillation, sine, cosine)
   - Vectors (location, velocity)
 
+Specific question types you will definitely see
+ - Something involving a bouncing ball and vectors
+ - Refactor of loose code into a class and generating many objects with an object array
+ - Some sort of grid or coordinate-based 2D array problem
+
 # Example Problems
 
 ## loops
