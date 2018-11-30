@@ -1,16 +1,24 @@
-# Midterm topics
+# Final topics
 
 Major focus will be on topics covered in the later half of the semester.
 
+  - Basic programming math (%, +, -, *, /, etc.)
   - Conditionals
   - Loops
   - Scope
   - Booleans
-  - Functions
-  - Arrays (1D and 2D)
+  - Functions (parameters, return type)
+  - Transformations (rotate, translate)
+  - Processing functions: map(), dist(), random()
+  - Arrays (1D, 2D)
   - Objects and classes
   - Trig (oscillation, sine, cosine)
-  - Vectors
+  - Vectors (location, velocity)
+
+Specific question types you will definitely see
+ - Something involving a bouncing ball and vectors
+ - Refactor of loose code into a class and generating many objects with an object array
+ - Some sort of grid or coordinate-based 2D array problem
 
 # Example Problems
 
