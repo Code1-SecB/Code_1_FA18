@@ -272,7 +272,7 @@ void draw() {
 ```
 ### 10. Trig 1
 
-the program below draws three circles whose oscillation is slightly off from one another. instead of drawing the circles one by one, create a loop that will draw 30 circles to the canvas to create the wave pattern below. use 'i' from your loop to adjust the beginning angle of each circle and space them our over the x-axis. finally, adjust the scalar so that the wave goes from the top of the canvas to the bottom.
+the program below draws three circles whose oscillation is slightly off from one another. instead of drawing the circles one by one, create a loop that will draw 30 circles to the canvas to create the wave pattern below. use 'i' from your loop to adjust the beginning angle of each circle and space them out over the x-axis. finally, adjust the scalar so that the wave goes from the top of the canvas to the bottom.
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final8.gif" alt="drawing" width="500"/>
 
