@@ -82,7 +82,10 @@ void draw() {
 ## arrays 2
 this sketch uses a 2d array of booleans. it fills the array based on the value of i and j in the loop, seeing if its halfway through the loop in that dimension. if it is, it sets the value to true. in the draw loop, based on if the boolean is true or not, it sets the color of an ellipse being drawn.
 
-add an additional 2d array that will be used to store the sizes of each of the ellipses being drawn. that is, some ellipses should be large, some should be small, etc. Map the value in the setup loops. for example, the ellipses should be large on the left and small on the right. Replace the w and h values filling the ellipse with the new values from your new ellipse size 2d array.
+add an additional 2d array that will be used to store the sizes of each of the ellipses being drawn. that is, some ellipses should be large, some should be small, etc. Map the value in the setup loops. for example, the ellipses should be large on the left and small on the right. Replace the w and h values filling the ellipse with the new values from your new ellipse size 2d array. See example image below, but feel free to make another pattern.
+
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/array2D.1.gif" alt="drawing" width="500"/>
+
 
 ```
 int gridW = 10;
