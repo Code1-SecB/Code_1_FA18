@@ -238,7 +238,7 @@ void draw() {
 
 ### 9. 2D Array 2
 
-this sketch draws a grid to the canvas using two 2D arrays. create a third 2D array that will be used to store color values for the grid. in the setup, use a conditional statement to set color values to red or white, depending on where you are in the grid.
+this sketch draws a grid to the canvas using two 2D arrays. create a third 2D array that will be used to store color values for the grid. in the setup, use a conditional statement to set color values to red or white, according to the pattern below.
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final4.png" alt="drawing" width="500"/>
 
