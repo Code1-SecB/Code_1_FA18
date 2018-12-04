@@ -22,7 +22,7 @@ void draw(){
 
 ### 2. Loops
 
-convert the sketch below to use two 'while' loops, rather than two 'for' loops. It should look the same.
+convert the sketch below to use two 'while' loops, rather than two 'for' loops. it should look the same.
 
 ![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/map1.png "")
 
@@ -159,7 +159,7 @@ void draw(){
 
 this sketch uses two 1D arrays to save X and Y coordinates to an array. as the user moves the mouse, the mouseX and mouseY values are saved at the beginning of the array and the rest of the values are shifted down. ellipses are drawn based on these coordinates and their size are drawn in relation to i.
 
-reverse the direction that values are saved to the array so that when ellipses are drawn, the ellipses closer to the mouse have a larger size and the furthest from the mouse have a smaller size. the drawing should looke the same, but with the size of the ellipses reversed.
+reverse the direction that values are saved to the array so that when ellipses are drawn, the ellipses closer to the mouse have a larger size and the furthest from the mouse have a smaller size. the drawing should look the same, but with the size of the ellipses reversed.
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final3.gif" alt="drawing" width="500"/>
 
@@ -272,7 +272,7 @@ void draw() {
 ```
 ### 10. Trig 1
 
-the program below draws three circles whose osciallation is slightly off from one another. instead of drawing the cirlces one by one, create a loop that will draw 30 circles to the canvas to create the wave pattern below. use 'i' from your loop to adjust the beginning angle of each circle and space them our over the x-axis. finally, adjust the scalar so that the wave goes from the top of the canvas to the bottom.
+the program below draws three circles whose oscillation is slightly off from one another. instead of drawing the circles one by one, create a loop that will draw 30 circles to the canvas to create the wave pattern below. use 'i' from your loop to adjust the beginning angle of each circle and space them our over the x-axis. finally, adjust the scalar so that the wave goes from the top of the canvas to the bottom.
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final8.gif" alt="drawing" width="500"/>
 
@@ -356,9 +356,9 @@ void draw() {
 }
 ```
 
-### 13. Objects and Classes
+### 13. Objects and Classes 1
 
-the code below draws blob circles to the canvas. commented out at the bottom is a different code that uses a Blob class to draw the circles instead. The Blob constructor takes 3 parameters (x position, y position, and diameter). Use the commented out code at the bottom and refactor the code above into a Blob class that will construct blob objects draw blobs to the canvas using a display function.
+the code below draws blob circles to the canvas. commented out at the bottom is a different code that uses a Blob class to draw the circles instead. The Blob constructor takes 3 parameters (x position, y position, and diameter). Use the commented out code at the bottom and refactor the code above into a Blob class that will construct blob objects and draw blobs to the canvas using a display function.
 
   - *for an extra credit point you can add an extra parameter that will initialize the angle variable for the blob objects. this way they can have offset size oscillation like the starter code*
 
@@ -409,9 +409,9 @@ void draw() {
 //}
 ```
 
-14. Objects and Classes
+### 14. Objects and Classes 2
 
-no starter code for this problem! write a bouncey ball class and use it to create an array of 5 bouncey balls and have them move and bounce on the canvas. the bouncey balls should have a .move(), .display(), and .checkBoundaries() methods. don't worry about colllision detection for this problem.
+no starter code for this problem! write a bouncey ball class and use it to create an array of 5 bouncey balls and have them move and bounce on the canvas. the bouncey balls should have .move(), .display(), and .checkBoundaries() methods. don't worry about colllision detection for this problem.
 
   - *for an extra credit point you can write your bouncey class to use location and velocity vectors instead of xPos, yPos, xSpeed, ySpeed.*
 
@@ -423,7 +423,7 @@ no starter code for this problem! write a bouncey ball class and use it to creat
 
 ### Noise
 
-the sketch below uses random generate x and y values and draw a rectangle randomly to the canvas, within the canvas bounds. use noise instead so that the rect moves smoothly between random values instead of jumping all over the screen.
+the sketch below uses random to generate x and y values and randomly draw a rectangle within the canvas bounds. use noise instead so that the rect moves smoothly between random values instead of jumping all over the screen.
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final11.gif" alt="drawing" width="500"/>
 
