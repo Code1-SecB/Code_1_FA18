@@ -84,7 +84,7 @@ this sketch uses a 2d array of booleans. it fills the array based on the value o
 
 add an additional 2d array that will be used to store the sizes of each of the ellipses being drawn. that is, some ellipses should be large, some should be small, etc. Map the value in the setup loops. for example, the ellipses should be large on the left and small on the right. Replace the w and h values filling the ellipse with the new values from your new ellipse size 2d array. See example image below, but feel free to make another pattern.
 
-<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/array2D.1.gif" alt="drawing" width="500"/>
+<img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/array2D.1.png" alt="drawing" width="500"/>
 
 
 ```
