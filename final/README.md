@@ -360,6 +360,8 @@ void draw() {
 
 the code below draws blob circles to the canvas. commented out at the bottom is a different code that uses a Blob class to draw the circles instead. The Blob constructor takes 3 parameters (x position, y position, and diameter). Use the commented out code at the bottom and refactor the code above into a Blob class that will construct blob objects draw blobs to the canvas using a display function.
 
+  - *for an extra credit point you can add an extra parameter that will initialize the angle variable for the blob objects. this way they can have offset size oscillation like the starter code*
+
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final5.gif" alt="drawing" width="500"/>
 
 
@@ -409,7 +411,9 @@ void draw() {
 
 14. Objects and Classes
 
-no starter code for this problem! write a bouncey ball class and use it to create an array of 5 bouncey balls and have them move and bounce on the canvas. the bouncey balls should have a .move(), .display(), and .checkBoundaries() methods. don't worry about colllision detection for this problem. for an extra credit point you can write your bouncey class to use vectors location and velocity instead of xPos, yPos, xSpeed, ySpeed.
+no starter code for this problem! write a bouncey ball class and use it to create an array of 5 bouncey balls and have them move and bounce on the canvas. the bouncey balls should have a .move(), .display(), and .checkBoundaries() methods. don't worry about colllision detection for this problem.
+
+  - *for an extra credit point you can write your bouncey class to use location and velocity vectors instead of xPos, yPos, xSpeed, ySpeed.*
 
 <img src="https://github.com/Code1-SecB/Code_1_FA18/blob/master/img/final12.gif" alt="drawing" width="500"/>
 
